@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.21)
+project(collection_c_use)
+set(CMAKE_CXX_STANDARD 17)
+include_directories(Collections-C/src/include)
+add_subdirectory(Collections-C/src)
+add_executable(collection_c_use main.c)
+target_link_libraries(collection_c_use collectc)

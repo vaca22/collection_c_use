@@ -1,0 +1,213 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src-Debug-9132f2fb9f077e059851.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"build" : "examples",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-examples-Debug-1c8b83b621b6ef38a245.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples"
+				},
+				{
+					"build" : "examples/hashtable",
+					"jsonFile" : "directory-examples.hashtable-Debug-27751f245331ee674b52.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "examples/hashtable",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						2
+					],
+					"name" : "Project"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "collectc",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "collectc_hashtable_examples",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "adding_key_value_pairs::@0981f489042d1f3ea1c4",
+					"jsonFile" : "target-adding_key_value_pairs-Debug-4f6ce0e82098e8522c4e.json",
+					"name" : "adding_key_value_pairs",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "collectc::@145eef247bfb46b6828c",
+					"jsonFile" : "target-collectc-Debug-13a67080c0081574cba9.json",
+					"name" : "collectc",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "collectc_static::@145eef247bfb46b6828c",
+					"jsonFile" : "target-collectc_static-Debug-793af3037daa2dee95d5.json",
+					"name" : "collectc_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "configuration::@0981f489042d1f3ea1c4",
+					"jsonFile" : "target-configuration-Debug-d454fa54b4c7ad0b6c41.json",
+					"name" : "configuration",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "custom_key_types::@0981f489042d1f3ea1c4",
+					"jsonFile" : "target-custom_key_types-Debug-06b4ca0721a0b4e5dd73.json",
+					"name" : "custom_key_types",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "getting_info_about_the_table_and_pairs::@0981f489042d1f3ea1c4",
+					"jsonFile" : "target-getting_info_about_the_table_and_pairs-Debug-b3a36140e59b87646a5d.json",
+					"name" : "getting_info_about_the_table_and_pairs",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "iterating_over_pairs::@0981f489042d1f3ea1c4",
+					"jsonFile" : "target-iterating_over_pairs-Debug-7741beab9ed616303200.json",
+					"name" : "iterating_over_pairs",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "pointer_keys::@0981f489042d1f3ea1c4",
+					"jsonFile" : "target-pointer_keys-Debug-d0655b85b6e299432528.json",
+					"name" : "pointer_keys",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "removing_key_value_pairs::@0981f489042d1f3ea1c4",
+					"jsonFile" : "target-removing_key_value_pairs-Debug-823c54844dfb0cdc2fbc.json",
+					"name" : "removing_key_value_pairs",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "string_keys::@0981f489042d1f3ea1c4",
+					"jsonFile" : "target-string_keys-Debug-c22a941e547704e715fe.json",
+					"name" : "string_keys",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vaca/chat/collection-c-use/Collections-C/cmake-build-debug",
+		"source" : "/home/vaca/chat/collection-c-use/Collections-C"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

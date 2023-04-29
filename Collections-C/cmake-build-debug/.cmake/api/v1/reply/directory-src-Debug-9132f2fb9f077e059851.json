@@ -1,0 +1,96 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 27,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "/usr/local/lib/pkgconfig",
+			"paths" : 
+			[
+				"cmake-build-debug/src/collectionc.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/libcollectc.so"
+			],
+			"targetId" : "collectc::@145eef247bfb46b6828c",
+			"targetIndex" : 1,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/collectc",
+			"paths" : 
+			[
+				"src/include/cc_array.h",
+				"src/include/cc_common.h",
+				"src/include/cc_deque.h",
+				"src/include/cc_hashset.h",
+				"src/include/cc_hashtable.h",
+				"src/include/cc_list.h",
+				"src/include/cc_pqueue.h",
+				"src/include/cc_queue.h",
+				"src/include/cc_ring_buffer.h",
+				"src/include/cc_slist.h",
+				"src/include/cc_stack.h",
+				"src/include/cc_treeset.h",
+				"src/include/cc_treetable.h",
+				"src/include/cc_tsttable.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/libcollectc.a"
+			],
+			"targetId" : "collectc_static::@145eef247bfb46b6828c",
+			"targetIndex" : 2,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src",
+		"source" : "src"
+	}
+}

@@ -1,0 +1,20 @@
+# ninja log v5
+0	24	1682753998894772577	src/CMakeFiles/collectc.dir/cc_common.c.o	aed558ba0eb55d9b
+2	27	1682753998894772577	src/CMakeFiles/collectc.dir/cc_ring_buffer.c.o	f0c2c0d8e04989b3
+3	27	1682753998898772618	examples/hashtable/CMakeFiles/adding_key_value_pairs.dir/operations/adding_key_value_pairs.c.o	8564b5dad630797e
+0	27	1682753998898772618	src/CMakeFiles/collectc.dir/cc_hashset.c.o	b59f3c5e9e6a7dd
+2	29	1682753998898772618	src/CMakeFiles/collectc.dir/cc_treeset.c.o	c4a9b6b9d06ccfbc
+1	32	1682753998902772657	src/CMakeFiles/collectc.dir/cc_pqueue.c.o	3158dddfd09955de
+1	32	1682753998902772657	src/CMakeFiles/collectc.dir/cc_queue.c.o	4d2d64187f347969
+2	34	1682753998902772657	src/CMakeFiles/collectc.dir/cc_stack.c.o	d3dccea6bfeba090
+2	43	1682753998910772738	src/CMakeFiles/collectc.dir/cc_tsttable.c.o	5448a0668277812b
+1	46	1682753998914772777	src/CMakeFiles/collectc.dir/cc_hashtable.c.o	29d2732acfe1875b
+2	52	1682753998922772857	src/CMakeFiles/collectc.dir/cc_treetable.c.o	4d892a0dc97246ad
+0	52	1682753998922772857	src/CMakeFiles/collectc.dir/cc_array.c.o	c46eba63e7510e77
+0	53	1682753998922772857	src/CMakeFiles/collectc.dir/cc_deque.c.o	bfd2db5de37f607a
+1	62	1682753998930772937	src/CMakeFiles/collectc.dir/cc_slist.c.o	f940d964dc679b0d
+1	71	1682753998938773017	src/CMakeFiles/collectc.dir/cc_list.c.o	703480aa6e544703
+71	84	1682753998954773177	src/libcollectc.so	6b614f377695bda6
+84	95	1682753998966773297	examples/hashtable/adding_key_value_pairs	d074bdd58a957b8
+0	14	1682754182780611647	examples/hashtable/CMakeFiles/string_keys.dir/initialization/string_keys.c.o	db5b98827d61ca60
+14	24	1682754182792611768	examples/hashtable/string_keys	c4209fd2b7ace505
